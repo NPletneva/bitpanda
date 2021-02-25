@@ -18,4 +18,7 @@ blocks:
             - 'flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics'
             - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
             - pip install pytest
-            - pytest
+            - 'pytest TaskTest.py::test_create_account'
+            - 'pytest TaskTest.py::test_alert_invalid_data_create_account'
+            - 'pytest TaskTest.py::test_alert_invalid_data_login'
+            - 'pytest TaskTest.py::test_add_delete_product_cart'
