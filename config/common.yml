@@ -1,0 +1,21 @@
+### common data ###
+# test data
+base_url: "http://automationpractice.com/index.php"
+user_login_prefix: pytest_
+user_login_postfix: '@pytest.test'
+name: Bob
+last_name: Jones
+password: qwerty123
+day_of_birth: '14'
+month_of_birth: '5'
+year_of_birth: '1994'
+address: 5th Avenue, 10110, Bitpanda
+city: New York
+state: '32'
+zip: 10110
+country: United States
+phone: +79111111111
+user_email: bitpanda@bitpanda.com
+user_info: Natalia Pletneva
+invalid_email: ya@ya
+
