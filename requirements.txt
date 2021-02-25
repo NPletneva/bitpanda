@@ -9,7 +9,6 @@ colorama==0.4.4
 configobj==5.0.6
 configparser==5.0.1
 crayons==0.4.0
-idna==3.1
 importlib-metadata==3.7.0
 iniconfig==1.1.1
 lxml==4.6.2
