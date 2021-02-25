@@ -5,7 +5,7 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: TestTask
+  - name: Test
     task:
       jobs:
         - name: pytest
@@ -19,3 +19,4 @@ blocks:
             - flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
             - pip install pytest
             - pytest
+            - pytest TaskTest.py
