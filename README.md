@@ -9,44 +9,46 @@ This project is Test Automation Engineer Assessment for Bitpanda.
 - all data are in config.yml
 - ci.yml - configuration setup to run tests in a ci
 
+You can check all testruns history thru 'Actions' sections here in GitHub.
 
-test_create_account - 
--- open main page
--- go to auth page
--- enter valid email
--- fillin registration form
--- submit data
--- check your location - My Account
+
+test_create_account
+- open main page
+- go to auth page
+- enter valid email
+- fillin registration form
+- submit data
+- check your location - My Account
 
 test_alert_invalid_data_create_account -
--- open main page
--- go to auth page
--- enter existing email to creation form
--- check alert error message
+- open main page
+- go to auth page
+- enter existing email to creation form
+- check alert error message
 
 test_alert_invalid_data_login -
--- open main page
--- go to auth page
--- enter invalid email to registration form
--- check alert error message
+- open main page
+- go to auth page
+- enter invalid email to registration form
+- check alert error message
 
 test_add_delete_product_cart - 
--- login to the store
--- go to catalog
--- open 'summer dresses' section
--- add first product to cart
--- proceed to checkout
--- check main elements
--- remove product
--- check alert 
+- login to the store
+- go to catalog
+- open 'summer dresses' section
+- add first product to cart
+- proceed to checkout
+- check main elements
+- remove product
+- check alert 
 
 
 Problems:
--- I couldn’t sort products by any parametrs (constant buffering + 403 (Forbidden) )
--- potentially I can add product thru the search (just using hover + input_data methods from StoreBase.py and reuse the same checks in cart)
--- no restrictions on password entry/validation (characters, no any security)
--- no check in register form (e.g. accepts spaces)
--- no history, with every new session the cart is updated
+- I couldn’t sort products by any parametrs (constant buffering + 403 (Forbidden) )
+- potentially I can add product thru the search (just using hover + input_data methods from StoreBase.py and reuse the same checks in cart)
+- no restrictions on password entry/validation (characters, no any security)
+- no check in register form (e.g. accepts spaces)
+- no history, with every new session the cart is updated
 
 
 
