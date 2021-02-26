@@ -9,7 +9,7 @@ This project is Test Automation Engineer Assessment for Bitpanda.
 - all data are in config.yml
 - ci.yml - configuration setup to run tests in a ci
 
-You can check all testruns history thru 'Actions' sections here in GitHub.
+You can check all testruns history thru 'Actions' section here in GitHub.
 
 
 test_create_account
