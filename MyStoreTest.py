@@ -1,12 +1,12 @@
 from LoginFlowTestCase import LoginFlowHelper
-from MyAccountTestCase import MyAccountHelper
+from AccountTestCase import AccountHelper
 from CatalogTestCase import CatalogHelper
 from CartTestCase import CartHelper
 
 
 def test_create_account(browser):
     sign_in_page = LoginFlowHelper(browser)
-    my_account_page = MyAccountHelper(browser)
+    my_account_page = AccountHelper(browser)
     sign_in_page.open_sign_in_page()
     assert "Login - My Store" in browser.title
     sign_in_page.verify_lexemes_sign_in_page()
@@ -39,7 +39,7 @@ def test_alert_invalid_data_login(browser):
 
 def test_add_delete_product_cart(browser):
     sign_in_page = LoginFlowHelper(browser)
-    my_account_page = MyAccountHelper(browser)
+    my_account_page = AccountHelper(browser)
     catalog_page = CatalogHelper(browser)
     cart_page = CartHelper(browser)
     sign_in_page.open_sign_in_page()
