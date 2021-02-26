@@ -1,5 +1,5 @@
-# bitpanda
-This project is Test Automation Engineer Assessment for Bitpanda.
+# test_task_bp
+This project is Test Automation Engineer Assessment.
 - all tests are in MyStoreTest.py - test’s scripts
 - StoreBase.py - basic accessor methods for elements, contains methods common for all tests
 - LoginFlowTestCase.py - contains methods/locators specific for login flow test
