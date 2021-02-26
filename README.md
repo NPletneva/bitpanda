@@ -6,8 +6,8 @@ This project is Test Automation Engineer Assessment.
 - AccountTestCase - contains methods/locators specific for account test
 - CartTestCase - contains methods/locators specific for order cart tests
 - CatalogTestCase - contains methods/locators specific for catalog tests
-- all data are in config.yml
-- ci.yml - configuration setup to run tests in a ci
+- all data are in common.yml
+- ci.yml - configuration setup to run tests ci
 
 You can check all testruns history thru 'Actions' section here in GitHub.
 
