@@ -30,4 +30,4 @@ jobs:
       - name: Run tests with pytest
         run: |
           pip install pytest
-          pytest TaskTest.py
+          pytest MyStoreTest.py
