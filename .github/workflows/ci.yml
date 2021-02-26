@@ -30,4 +30,7 @@ jobs:
       - name: Run tests with pytest
         run: |
           pip install pytest
-          pytest MyStoreTest.py
+          pytest MyStoreTest.py::test_create_account
+          pytest MyStoreTest.py::test_alert_invalid_data_create_account
+          pytest MyStoreTest.py::test_alert_invalid_data_login
+          pytest MyStoreTest.py::test_add_delete_product_cart
