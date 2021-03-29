@@ -1,4 +1,4 @@
-# test_task_bp
+# automationTechTask
 - all tests are in MyStoreTest.py - test’s scripts
 - StoreBase.py - basic accessor methods for elements, contains methods common for all tests
 - LoginFlowTestCase.py - contains methods/locators specific for login flow test
